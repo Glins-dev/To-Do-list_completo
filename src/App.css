@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Righteous&family=Ubuntu&display=swap');
 body {
   font-family: Arial;
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background-image: url('./img/star-bg.jpg');
+  background-image: url('./img/star-wars-star.jpg');
   background-position: center;
   background-size:cover ;
 }
@@ -11,21 +12,31 @@ body {
 .app {
   max-width: 600px;
   margin: 0 auto;
-  background-color: #efefef;
+  background-color: transparent;
   padding: 20px 30px;
   border-radius: 15px;
 }
 
 h1 {
   text-align: center;
+  font-family: 'Righteous', cursive;
+  color: #ff0;
+  font-size: 3rem;
+  
+  
 }
 
 h2 {
   margin-bottom: 10px;
+  color: #ff0;
+  font-size: 1rem; font-family: 'Righteous', cursive;
+
+
 }
 
 p {
   margin: 10px 0;
+  color: #ff0;
 }
 
 input {
@@ -33,7 +44,7 @@ input {
 }
 
 button {
-  background-color: #333974;
+  background-color: #3B9CB8;
   color: #fff;
   padding: 5px  10px;
   border: none;
@@ -50,28 +61,30 @@ button:hover {
 
 .todo-list {
   margin-bottom: 20px;
+  margin-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #555;
   
 }
 
 .todo{
-  background-color: #fff;
+  background-color: black;
   box-shadow: 0 0 10px rgba(0,0,0, 0.1);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  border: 3px solid #ff0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .complete{
-  background-color: #5cb85c;
+  background-color: #26AC23;
 }
 
 .remove{
-  background-color: #b9534f;
+  background-color: #B20507;
 }
 
 .todo-form {
@@ -79,7 +92,7 @@ button:hover {
 }
 
 input, select {
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 10px;
   border: 1px solid #DDD;
   border-radius: 3px;

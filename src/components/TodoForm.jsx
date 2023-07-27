@@ -13,7 +13,7 @@ const TodoForm = ({addTodo}) => {
   }
   return (
   <div className=''>
-    <h2>Criar tarefa: </h2>
+    <h2>CRIAR TAREFA: </h2>
     <form onSubmit={handleSubmit}>
       <input type='text'
       value={value}
